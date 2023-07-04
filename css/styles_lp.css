@@ -1,0 +1,173 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .servicios{
+    background-color: #F2F2F2;
+    text-align: center;
+  }
+  .container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #F2F2F2;;
+  }
+  .container-servicios{
+    text-align: center
+    ;
+  }
+  .container-servicios {
+    font-family: 'Lora', serif;
+  }
+
+  
+  
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #1F2236;
+    color: #D8BD66;
+    padding: 20px;
+
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+  }
+  
+  /* Estilos para el héroe */
+  #hero {
+    background-image: url(/img/funeral1.png);
+    background-size: cover;
+    background-position: center;
+    color: #F2F2F2;
+    padding: 100px 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: medium;
+  }
+  #hero h2{
+    letter-spacing: 0.5px;
+  }
+  /* Estilos para los testimonios */
+  #testimonios {
+    background-color: #F2F2F2;
+    font-family: 'Lora', serif;
+    padding: 40px 0;
+  }
+  
+  .testimonial {
+    margin-bottom: 40px;
+    background-color: #F2F2F2;
+  }
+  
+  .testimonial img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Estilos para el formulario de contacto */
+  form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  .btn{
+    border: none;
+    background: none;
+    background-color: #1F2236;
+    color: #F2F2F2;
+    padding: 10px 10px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #242947b9;
+  }
+
+  .container-footer{
+    background-color: #1F2236;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 15px;
+  }
+ /* /////////////////////// */
+  .service-container {
+    text-align: center;
+  }
+  
+  .service-item {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .service-item img {
+    width: 500px; /* Ajusta el tamaño según tus necesidades */
+  }
+  
+  .service-item p {
+    margin-top: 10px;
+  }
+  .container-testimonios {
+    text-align: center;
+  }
+
+  .container-contacto{
+    font-family: 'Lora', serif;
+  }
+  
+

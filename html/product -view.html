@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto Ataud - 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles2.css">
+</head>
+<body>
+    <header>
+        <img src="/img/Logo.png">
+        <h1 class="text-center">Funeraria Anderson</h1>
+          <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#BarraNavegacion">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div id="BarraNavegacion" class="collapse navbar-collapse justify-content-center text-center">
+                <ul class="navbar-nav ms-3">
+                  <li class="nav-item"><a class="nav-link" href="/index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/html/services.html">Servicios</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/html/about-us.html">Quienes Somos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/html/contact.html">Contacto</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/html/dasboard.html">Dashboard</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/html/car.html">Carrito</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>  
+    <main>
+        <div class="container">
+            <div id="view-container" class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <div class="card d-flex align-items-center">
+                        <img class="img-fluid" src="/img/producto1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h4>Ataúd de madera modelo Venecia</h4>
+                        <span>S/ 2000</span>
+                    </div>
+                    <hr>
+                    <label for="color">Color</label>
+                    <select class="form-select">
+                        <option value="Bronce">Bronce</option>
+                        <option value="Plata">Plata</option>
+                        <option value="Blanco">Blanco</option>
+                    </select>
+                    <label for="Adornos">Adornos</label>
+                    <select class="form-select">
+                        <option value="Barras">Barras</option>
+                        <option value="Chapas">Chapas</option>
+                    </select>
+                    <input 
+                        type="number"
+                        placeholder="1"
+                        value="1"
+                        min="1"
+                        max="5"
+                    >
+                    <button class="btn btn-secondary">
+                        Comprar
+                    </button>
+                    <hr>
+                    <div>
+                        <h4>Descripción</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugiat esse iusto quos iure molestiae exercitationem, aspernatur nesciunt dolorem? Quis laudantium maxime molestiae, voluptates corporis quidem sapiente facilis? Perspiciatis, ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quidem ratione magni labore veritatis, iure obcaecati voluptatem provident unde! Eligendi vitae dignissimos, atque nulla obcaecati harum laudantium voluptate facere omnis.</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h4>Contactenos</h4>
+                        <div>
+                            <a href="#"><i class="fa-solid fa-square-phone-flip"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <section class="otros-productos">
+        <div class="container">
+            <h2>Otros productos</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4" >
+                <div>
+                    <div id="related-products" class="card">
+                        <div class="producto-relacionado text-center">
+                            <div class="producto-relacionado-img">
+                                <img src="/img/producto5.jpg" alt="producto-6">
+                            </div>
+                            <button type="button" class="btn btn-sm btn-outline-secondary w-50">Ver Producto</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div id="related-products" class="card">
+                        <div class="producto-relacionado text-center">
+                            <div class="producto-relacionado-img">
+                                <img src="/img/producto3.jpg" alt="producto-6">
+                            </div>
+                            <button type="button" class="btn btn-sm btn-outline-secondary w-50">Ver Producto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div id="related-products" class="card">
+                        <div class="producto-relacionado text-center">
+                            <div class="producto-relacionado-img">
+                                <img src="/img/producto2.jpg" alt="producto-6">
+                            </div>
+                            <button type="button" class="btn btn-sm btn-outline-secondary w-50">Ver Producto</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div id="related-products" class="card">
+                        <div class="producto-relacionado text-center">
+                            <div class="producto-relacionado-img">
+                                <img src="/img/producto6.jpg" alt="producto-6">
+                            </div>
+                            <button type="button" class="btn btn-sm btn-outline-secondary w-50">Ver Producto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>Funeraria Anderson &copy; 2023. Todos los derechos reservados.</footer>
+
+    <script src="https://kit.fontawesome.com/fb53569733.js" crossorigin="anonymous"></script>
+    <script src="/functions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

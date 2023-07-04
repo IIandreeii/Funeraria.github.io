@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lora&display=swap');
+
+header{
+    background-color: #1F2236;
+    color: #D8BD66;
+    font-family: 'Lora', serif;
+}
+header img{
+    float: left;
+    padding: 15px 15px;
+}
+.navbar {
+    background-color: #1F2236;
+}
+
+.navbar-nav .nav-link {
+    color: #F2F2F2;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #D8BD66;
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
+    color: #D8BD66;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+/* /////////////////////////////////////// */
+.card{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.20);
+    margin-bottom: 0.5rem;
+}
+
+.card img{
+    padding: 30px 0;
+    width: 100%;
+    height: 300px;
+    /* adapta la imagen */
+    object-fit: cover;
+    
+}
+main{
+    margin-bottom: 3.125rem;
+    margin-top: 3.125rem;
+}
+
+#main-container{
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+#main-container .card{
+    border: none;
+}
+#main-container button{
+    background-color: #1F2236;
+    color: #F2F2F2;
+    border-style: none;
+    border-radius: 0%;
+
+}
+#main-container button:hover{
+    background-color: #D8BD66;
+}
+
+
+footer{
+    font-family: 'Lora', serif;
+    background-color: #1F2236;
+    color: #F2F2F2;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#service{
+    font-family: 'DM Sans', sans-serif;
+    background-color: #1F2236;
+    color: #F2F2F2;
+}
+#service button{
+    font-family: 'DM Sans', sans-serif;
+    border-style: none;
+    border-radius: 0%;
+    background-color: #D8BD66;
+    color: #F2F2F2;
+}
+#service button:hover{
+    background-color: #F2F2F2;
+    color: black;
+}
+
+#infoc{
+    background-image: url(/img/aboutus1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F2F2F2;
+    margin: auto;
+
+}
+#infod{
+    background-image: url(/img/aboutus2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F2F2F2;
+    margin: auto;
+}
+
+#infoc div{
+    font-family: 'Lora', serif;
+    background-color: rgba(166, 166, 166, 0.5);
+    mix-blend-mode: hardlight;
+    
+}
+
+#infod div{
+    font-family: 'Lora', serif;
+    background-color: rgba(166, 166, 166, 0.5);
+    mix-blend-mode: hardlight;
+}
+
+#infoc h4{
+    padding: 10px;
+}
+#infod h4{
+    padding: 10px;
+}
+
+#infoc p{
+    padding: 10px;
+}
+#infod p{
+    padding: 10px;
+}
+
+.info-us{
+    border-style: ridge;
+}
+
+#service-info{
+    margin-top: 5%;
+}
+
+#service-info h4{
+    padding-bottom: 0%;
+}
+
+#service-info p{
+    padding-top: 0%;
+}
+
+#contact{
+    font-family: 'DM Sans', sans-serif;
+    color: #353332;
+    margin-top: 50px;
+    
+}
+
+
+#contact button{
+    background-color: #F4F0E9;
+    color: #4C4C4C;
+    border-style: none;
+    border-radius: 0%;
+}
+
+#contact button:hover{
+    background-color:#1A1F26 ;
+    color: #F2F2F2;
+
+}
+
+#contact h4 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    color: #D8BD66;
+}
+
+#inputs textarea{
+    height: 150px;
+    resize: none;
+    color: #A6A8A6;
+}
+.producto-relacionado img{
+    padding: 30px 0;
+    width: 100%;
+    height: 300px;
+    /* adapta la imagen */
+    object-fit: cover;
+}
+
+
+/* //////////////////////////////////// */
+
+.table-image {
+    display: flex;
+    align-items: center;
+}
+
+.table-image img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.20);
+}
+
+#view-container{
+    margin-top: 1rem;
+}
+
+#view-container button{
+    background-color: #1F2236;
+    color: #F2F2F2;
+    border-style: none;
+    border-radius: 0%;
+}
+
+#view-container button:hover{
+    background-color: #D8BD66;
+}
+
+#related-products{
+    margin-bottom: 20px; /* Margen inferior */
+    margin-right: 0rem;  
+    border: none;
+}
+
+#related-products button{
+    background-color: #1F2236;
+    color: #F2F2F2;
+    border-style: none;
+    border-radius: 0%;
+}
+
+#related-products button:hover{
+    background-color: #D8BD66;
+}
+/* Personalizar el toggler de bootstrap */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(216,189,102, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(216, 189, 102);
+  }
+  
+  .custom-toggler.navbar-toggler:active {
+    outline: none;
+  }
+/* ///////////////////////////////////// */
+
+.otros-productos{
+    margin-bottom: 50px
+}
+

@@ -1,0 +1,40 @@
+[
+    {
+        "id": "ataud-01",
+        "titulo": "Ataud 01",
+        "imagen": "/img/producto1.jpg",
+        "precio": 3000
+    },
+    {
+        "id": "ataud-02",
+        "titulo": "Ataud 02",
+        "imagen": "/img/producto2.jpg",
+        "precio": 2000
+    },
+    {
+        "id": "ataud-03",
+        "titulo": "Ataud 03",
+        "imagen": "/img/producto3.jpg",
+        "precio": 2500
+    },
+    {
+        "id": "ataud-04",
+        "titulo": "Ataud 04",
+        "imagen": "/img/producto4.jpg",
+        "precio": 2100
+    },
+    {
+        "id": "ataud-05",
+        "titulo": "Ataud 05",
+        "imagen": "/img/producto5.jpg",
+        "precio": 3000
+    },
+    {
+        "id": "ataud-06",
+        "titulo": "Ataud 06",
+        "imagen": "/img/producto6.jpg",
+        "precio": 1500
+    }
+    
+]
+
